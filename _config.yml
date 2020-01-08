@@ -110,15 +110,14 @@ author:
   name             : "Freeman Mak"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I'm a data scientist with experience in manufacturing operations and 
-  a deep interest in machine learning for computer vision. I am currently involved in a computer vision related 
-  research project with the potential to revolutionize smartphone security."
+  a deep interest in AI for computer vision. I am really passionate about leveraging data, machine learning and software to solve meaningful problems."
 
-  location         : "Somewhere"
-  email            :
+  location         : "Toronto, ON"
+  email            : "freemanmak95@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: mailto:freemanmak95@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -130,7 +129,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/Fmak95"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
