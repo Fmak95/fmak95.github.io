@@ -1,8 +1,8 @@
 ---
-title: "About"
+title: "About Me"
 permalink: /about/
 header:
-  image: "/assets/images/home-page.jpg"
+  image: "/assets/images/home-page.jpeg"
 ---
 
 I’m a data scientist with experience in manufacturing operations and a deep interest in machine learning for computer vision. I am currently involved in a computer vision related research project with the potential to revolutionize smartphone security.
