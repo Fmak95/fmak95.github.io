@@ -108,14 +108,14 @@ analytics:
 # Site Author
 author:
   name             : "Freeman Mak"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/avatar-photo.png"
   bio              : "I'm a data scientist with experience in manufacturing operations and 
   a deep interest in AI for computer vision. I am really passionate about leveraging data, machine learning and software to solve meaningful problems."
 
   location         : "Toronto, ON"
-  email            : "freemanmak95@gmail.com"
+  email            : #"freemanmak95@gmail.com"
   links:
-    - label: "Email"
+    - label: "freemanmak95@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:freemanmak95@gmail.com
     - label: "Website"
@@ -124,9 +124,9 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/freeman-mak/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Fmak95"
