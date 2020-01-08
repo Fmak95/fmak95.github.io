@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Freeman Mak"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Freeman Mak"
+description              : "Data Science Portfolio."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -107,9 +107,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Freeman Mak"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : """I'm a data scientist with experience in manufacturing operations and 
+  a deep interest in machine learning for computer vision. I am currently involved in a computer vision related 
+  research project with the potential to revolutionize smartphone security."""
+  
   location         : "Somewhere"
   email            :
   links:
