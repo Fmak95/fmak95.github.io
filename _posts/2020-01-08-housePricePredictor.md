@@ -23,5 +23,9 @@ Alright, so from the correlation matrix shown above, we can see that the top 5 f
 4. GarageArea (Size of garage, measured in square feet)
 5. TotalBsmtSF (Total square feet of the basement area)
 
-First, we check the dataset to see how many features contain missing values. When faced with missing values there are generally two things you can do: either try to fill in the missing data with the statistical mean or mode, this is called data imputation, or you can simply remove the feature and not include it in your predictive model. More advanced techniques exist such as adding an extra feature that indicates which values are missing and combining that with a data imputation.
+Let's examine these features more closely and look at their distribution. Ideally, we would like to see a gaussian distribution for these features so that we can use some statistical tricks such as least-squares fitting. Certain machine learning algorithms, like linear regression, fit the data by assuming that the error between prediction and actual follow a gaussian distribution. Meanwhile, algorithms like support vector machines and decision trees do not make such assumptions.
+
+<img src="/assets/images/house-price-predictor/distribution.png"/>
+
+<!-- First, we check the dataset to see how many features contain missing values. When faced with missing values there are generally two things you can do: either try to fill in the missing data with the statistical mean or mode, this is called data imputation, or you can simply remove the feature and not include it in your predictive model. More advanced techniques exist such as adding an extra feature that indicates which values are missing and combining that with a data imputation. -->
 
