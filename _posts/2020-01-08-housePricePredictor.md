@@ -27,5 +27,11 @@ Let's examine these features more closely and look at their distribution. Ideall
 
 <img src="/assets/images/house-price-predictor/distribution.png"/>
 
+Looking at the histograms above, we can see that most of the features have a right skewness. Moreover, "GarageCars" and "OverallQual" are non-continuous features that have integer only values. We can make the data more normally distributed by applying a simple log transformation, of course this is an optional step that may or may not improve the performance of our predictive model, but it is worth a try.
+
+Now that we have a good understanding of the distribution of the features, we can check for non-linear correlations and outliers by using a scatter plots.
+
+<img src="/assets/images/house-price-predictor/scatter-plots.png"/>
+
 <!-- First, we check the dataset to see how many features contain missing values. When faced with missing values there are generally two things you can do: either try to fill in the missing data with the statistical mean or mode, this is called data imputation, or you can simply remove the feature and not include it in your predictive model. More advanced techniques exist such as adding an extra feature that indicates which values are missing and combining that with a data imputation. -->
 
