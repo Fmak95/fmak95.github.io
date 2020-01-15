@@ -8,6 +8,8 @@ excerpt: "Predicting the price of houses based on a variety of features such as:
 
 In this project, we are given a dataset with 79 features in which the end goal is to predict the sales price of various houses. All of the features and their descriptions can be found on the link <a href="https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data">here.</a> The main challenges with this dataset are: missing data, outliers and feature selection.
 
+The code for this project can be found <a href="https://github.com/Fmak95/House-Prices-Advanced-Regression-Techniques/blob/master/House_Prices.ipynb">here</a>.
+
 ## Exploratory Data Analysis
 
 The first step to any data science project is to take a look at the data. Are their missing values in the data? Is the data clean or noisy? Are their outliers in the data? What is the distribution of our dataset? Which features should we choose for our predictive model? Answering these questions will give us a better idea of how to tackle this problem.
@@ -33,5 +35,9 @@ Now that we have a good understanding of the distribution of the features, we ca
 
 <img src="/assets/images/house-price-predictor/scatter-plots.png"/>
 
-<!-- First, we check the dataset to see how many features contain missing values. When faced with missing values there are generally two things you can do: either try to fill in the missing data with the statistical mean or mode, this is called data imputation, or you can simply remove the feature and not include it in your predictive model. More advanced techniques exist such as adding an extra feature that indicates which values are missing and combining that with a data imputation. -->
+Couple things that we can see from looking at these graphs are:
+- GrLivArea, GarageArea and TotalBsmtSF seem to have a lot of values which are 0. This could simply be because the house is missing these things. This must be the datasets way of stating "N/A" since not all houses have basements or garages.
+
+## Predictive Modelling
+Now, let's move on to the fun part. Here we will try many different machine learning algorithms to see which performs best at predicting housing price. Since there is not a lot in terms of visuals to show in this section, I encourage you all to check out the code <a href="https://github.com/Fmak95/House-Prices-Advanced-Regression-Techniques/blob/master/House_Prices.ipynb">here</a>.
 
